@@ -2,13 +2,14 @@ package main
 
 import (
 	"fmt"
-	"github.com/K8sbykeshed/net-utils/pkg/iptables"
 	"log"
+
+	"github.com/K8sbykeshed/monad/pkg/iptables"
 )
 
 func main() {
 	var (
-		err error
+		err  error
 		rule iptables.Rule
 	)
 

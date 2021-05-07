@@ -2,8 +2,9 @@ package iptables
 
 import (
 	"bytes"
-	"github.com/K8sbykeshed/net-utils/pkg/iptables/utils"
 	"reflect"
+
+	"github.com/K8sbykeshed/monad/pkg/iptables/utils"
 )
 
 // Unmarshal converts a single line from ListRules into a Rule
