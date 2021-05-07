@@ -1,3 +1,3 @@
-module github.com/K8sbykeshed/net-utils
+module github.com/K8sbykeshed/monad
 
 go 1.16
